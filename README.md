@@ -45,7 +45,7 @@ MONGODB_URI=mongodb://localhost:27017/1point1solution
 # MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/1point1solution
 
 # JWT Configuration
-JWT_SECRET=your_super_secret_jwt_key_change_this_in_production
+JWT_SECRET=<>
 JWT_EXPIRE=30d
 
 # Optional: For production
