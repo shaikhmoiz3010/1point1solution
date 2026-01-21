@@ -2,11 +2,6 @@
 
 A full-stack MERN application for managing government documentation services with admin panel, user dashboard, and booking system.
 
-## 🚀 Live Demo
-- **Frontend**: http://localhost:3000
-- **Backend API**: http://localhost:5000
-- **Admin Panel**: http://localhost:3000/admin
-
 ## 📋 Prerequisites
 
 Before you begin, ensure you have installed:
