@@ -320,15 +320,6 @@ CORS_ORIGIN=https://your-frontend-domain.com
    sudo systemctl restart mongod
    ```
 
-2. **Port Already in Use**
-   ```bash
-   # Find process using port
-   sudo lsof -i :3000  # For frontend
-   sudo lsof -i :5000  # For backend
-   
-   # Kill process
-   kill -9 <PID>
-   ```
 
 3. **Module Not Found Errors**
    ```bash
@@ -373,13 +364,6 @@ curl http://localhost:5000/api/services
 # Login as admin and test admin endpoints
 ```
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit changes (`git commit -m 'Add AmazingFeature'`)
-4. Push to branch (`git push origin feature/AmazingFeature`)
-5. Open Pull Request
 
 ## 📄 License
 
@@ -397,7 +381,7 @@ Copy this into your project as `README.md` and give it to any coder. They just n
 
 ```bash
 # 1. Clone
-git clone <your-repo-url>
+git clone https://github.com/shaikhmoiz3010/1point1solution
 cd 1Point-1Solution
 
 # 2. Install everything
