@@ -93,10 +93,6 @@ VITE_API_URL=http://localhost:5000/api
 npm run seed
 ```
 
-**Seeded Credentials:**
-- **Admin User**: `admin@1point1solution.com` / `admin123`
-- **Regular User**: `user@1point1solution.com` / `user123`
-
 ### Step 6: Start the Development Server
 ```bash
 # This will start both frontend and backend concurrently
