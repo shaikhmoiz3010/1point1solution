@@ -42,11 +42,11 @@ NODE_ENV=development
 MONGODB_URI=mongodb://localhost:27017/1point1solution
 
 # OR for MongoDB Atlas:
-# MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/1point1solution
+# MONGODB_URI=<>
 
 # JWT Configuration
 JWT_SECRET=<>
-JWT_EXPIRE=30d
+JWT_EXPIRE=<>
 
 # Optional: For production
 # FRONTEND_URL=http://localhost:3000
@@ -227,7 +227,7 @@ npm run seed              # Seed database
 ```javascript
 {
   category: String, // 'driving-licence', 'passport', etc.
-  serviceId: String, // 'A', 'B', 'C'
+  serviceId: String,
   name: String,
   description: String,
   fee: Number,
